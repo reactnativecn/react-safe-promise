@@ -1,0 +1,24 @@
+{
+  "name": "react-safe-promise",
+  "version": "0.1.0",
+  "description": "Wrap a promise to avoid memory leak and warning after component is unmounted",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactnativecn/react-safe-promise.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "promise"
+  ],
+  "author": "tdzl2003",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reactnativecn/react-safe-promise/issues"
+  },
+  "homepage": "https://github.com/reactnativecn/react-safe-promise#readme"
+}
