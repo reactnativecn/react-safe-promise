@@ -33,8 +33,8 @@ export default function safePromise(Clazz){
       super(props);
       this.__promiseCallbacks = [];
     }
-    componentDidUnmount(){
-      super.componentDidUnmount();
+    componentWillUnmount(){
+      super.componentWillUnmount();
       this.__promiseCallbacks.forEach(v=>v());
     }
     safePromise(promise){
