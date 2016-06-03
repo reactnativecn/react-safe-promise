@@ -5,7 +5,7 @@ Fix a common warning that says `Can only update a mounted or mounting component.
 ## Install:
 
 ```bash
-npm install react-safe-promsie -save
+npm install react-safe-promise -save
 ```
 
 ## Wrap your component:
